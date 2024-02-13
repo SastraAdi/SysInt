@@ -11,3 +11,6 @@ C:\AllFiles\Task1\SalesOrderIN\*.
 
 
  C:\AllFiles\Task1\OUT\Archive\CompleteSO%MessageID%.xml
+
+
+ msgLoanApp.LoanConditions.LoanAmount>1000
