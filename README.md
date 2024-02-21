@@ -1,16 +1,8 @@
-# SysInt
-Lab
-
-
-C:\AllFiles\Task1\SalesOrderIN\*.
-
-
- C:\AllFiles\Task1\OUT\InventorySystem\Restock%MessageID%.xml
-
-
-
-
- C:\AllFiles\Task1\OUT\Archive\CompleteSO%MessageID%.xml
-
-
- msgLoanApp.LoanConditions.LoanAmount>1000
+[OperationContract]
+double Add(double x, double y);
+[OperationContract]
+double Subtract(double x, double y);
+[OperationContract]
+double Multiply(double x, double y);
+[OperationContract]
+double Divide (double x, double y);
