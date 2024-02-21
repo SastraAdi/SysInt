@@ -20,3 +20,27 @@ lblResult.Text = "";
     {
       MessageBox.Show("Please enter valid number");
     }
+
+--------------------
+
+
+lblResult.Text = "";
+double x = 0, y = 0;
+if (double.TryParse(txtNumber1.Text, out x) && double.TryParse(txtNumber2.Text, out y))
+    lblResult.Text = sc.Multiply(x, y).ToString();
+else
+{
+    MessageBox.Show("Please enter valid number");
+}
+
+
+-------
+
+lblResult.Text = "";
+double x = 0, y = 0;
+if (!double.TryParse(txtNumber2.Text, out y))
+MessageBox.Show("You cannot divide by zero");
+else if (double.TryParse(txtNumber1.Text, out x) && double.TryParse(txtNumber2.Text, out y))
+lblResult.Text = sc.Division(x, y).ToString();
+else
+MessageBox.Show("Please enter valid number");
