@@ -8,3 +8,15 @@ else
 {
 MessageBox.Show("Please enter valid number");
 }
+
+
+
+
+    double x = 0, y = 0;
+lblResult.Text = "";
+    if (double.TryParse(txtNumber1.Text, out x) && double.TryParse(txtNumber2.Text, out y))
+      lblResult.Text = sc.Subtract(x, y).ToString();
+    else
+    {
+      MessageBox.Show("Please enter valid number");
+    }
