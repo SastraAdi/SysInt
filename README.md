@@ -20,11 +20,9 @@ SystInt20242U2NB4W1al22qUqVIakjbqZjM
 ------
 
 
-MessageBox. Show(*Username: " + loginResult.userInfo.userName + "In" + "Organization Id " + loginResult.userInfo.organizationId + "In" + "Organization Name " + loginResult.userInfo.organizationName + "In" + "User full Name " + loginResult.userInfo.userFullName + "In"
-"User Type
-•⁠  ⁠+ loginResult yserInfo. userType + "In"
-+ "User Email " + loginResult.userInfo.userEmail+"In"
-+ "Profile ID " + loginResult.userInfo.profileId+"in"
-"User Information for"+ loginesult.userInfo.userFullName,
-MessageBoxButtons. OKCancel, MessageBoxIcon. Information) ;
-
+MessageBox.Show("Username: " + loginResult.userInfo.userName + "\n" + "Organization Id " + loginResult.userInfo.organizationId + "\n"
++ "Organization Name " + loginResult.userInfo.organizationName + "\n" + "User full Name " + loginResult.userInfo.userFullName + "\n"
++ "User Type " + loginResult.userInfo.userType + "\n"
++ "User Email " + loginResult.userInfo.userEmail + "\n"
++ "Profile ID " + loginResult.userInfo.profileId + "\n",
+"User Information for " + loginResult.userInfo.userFullName + "\n", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
